@@ -51,16 +51,7 @@ if ( post_password_required() ) {
 			?>
 		</h2>
 
-		<ol class="comment-list">
-			<?php
-				wp_list_comments( array(
-					'avatar_size' => 100,
-					'style'       => 'ol',
-					'short_ping'  => true,
-					'reply_text'  => twentyseventeen_get_svg( array( 'icon' => 'mail-reply' ) ) . __( 'Reply', 'twentyseventeen' ),
-				) );
-			?>
-		</ol>
+		blablabla
 
 		<?php the_comments_pagination( array(
 			'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous', 'twentyseventeen' ) . '</span>',
